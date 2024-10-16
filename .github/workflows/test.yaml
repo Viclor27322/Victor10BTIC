@@ -1,4 +1,4 @@
-name: Hola Mundo
+name: Hola Mund
 
 on: [push]
 
@@ -29,3 +29,7 @@ jobs:
     steps:
       - name: Directorio
         run: ls -al
+      - name: Instalar
+        run: |
+          cd .github/workflows
+          ls -al
